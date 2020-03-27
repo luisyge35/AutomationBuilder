@@ -1,0 +1,14 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE Estacion_Bases :
+STRUCT
+	Alimenta 			: BOOL;	(*BIT 0*)
+       Fin_Alimenta  		: BOOL;	(*BIT 1*)
+	Emergencia		: BOOL;	(*BIT 2*)
+	Fin_Emergencia	: BOOL;	(*BIT 3*)
+	Cond_Ini 			: BOOL;	(*BIT 4*)
+	Fin_Cond_Ini		: BOOL;	(*BIT 5*)
+END_STRUCT
+END_TYPE
+(* @END_DECLARATION := '0' *)
