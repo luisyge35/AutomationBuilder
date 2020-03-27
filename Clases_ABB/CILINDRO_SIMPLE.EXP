@@ -1,0 +1,11 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE Cilindro_Simple :
+STRUCT
+	Valvula                       : EV_Simple;
+	Sensor_Avance       : Sensor_Magnetico;
+	Sensor_Retroceso : Sensor_Magnetico;
+END_STRUCT
+END_TYPE
+(* @END_DECLARATION := '0' *)

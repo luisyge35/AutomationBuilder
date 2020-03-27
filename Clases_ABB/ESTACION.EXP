@@ -1,0 +1,11 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE Estacion :
+STRUCT
+	Cilindro_A  	          : Cilindro_Simple;
+	Empty        			   : Sensor_Foto;
+	Base_en_Posicion : Sensor_Cap;
+END_STRUCT
+END_TYPE
+(* @END_DECLARATION := '0' *)

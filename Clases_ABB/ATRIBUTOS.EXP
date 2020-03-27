@@ -1,0 +1,11 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE Atributos :
+STRUCT
+	Fin_Operacion               : BOOL;
+	Cond_Ini                         : BOOL;
+	Estado_Emergencia    : BOOL;
+END_STRUCT
+END_TYPE
+(* @END_DECLARATION := '0' *)
