@@ -1,0 +1,12 @@
+{
+  "name": "modbus_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_modules/node-red/red.js",
+  "scripts": {
+    "start":"node node_modules/node-red/red.js -s settings.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luis",
+  "license": "ISC"
+}
